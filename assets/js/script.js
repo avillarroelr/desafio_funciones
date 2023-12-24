@@ -1,3 +1,4 @@
+// Función Pintar rectangulo 
 function pintar (event, color = 'green'){
     event.style.backgroundColor = color
 }

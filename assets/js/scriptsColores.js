@@ -1,8 +1,10 @@
+// Pintar Cubos de Colores y Pasarlos a negro al hacerles click en web 4_colores.html
 document.getElementById('cubo1').addEventListener('click', function(){this.style.backgroundColor='black';});
 document.getElementById('cubo2').addEventListener('click', function(){this.style.backgroundColor='black';});
 document.getElementById('cubo3').addEventListener('click', function(){this.style.backgroundColor='black';});
 document.getElementById('cubo4').addEventListener('click', function(){this.style.backgroundColor='black';});
 
+// Colorear y crear nuevos cubos segun teclas presionadas en web 4_colores.html
 document.addEventListener('keydown',function(event) {
     if (event.key === 'a') {
         color = 'pink';
@@ -35,5 +37,4 @@ document.addEventListener('keydown',function(event) {
         newDiv.style.marginBottom = '5px';
         document.body.appendChild(newDiv);
     }
-
 });
